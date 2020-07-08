@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Справочник</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo logo">
+			<a href="https://yandex.ru" class="logo__lonk_type_yandex"></a>
+			<a href="https://yandex.ru/sprav/main" class="logo__link_type_service"></a>
+		</div>
+		<div class="header__content">
+			<form action="#" method="get" class="header__search-form search">
+				<input type="text" placeholder="Название, телефон, сайт" class="search__input" id="search">
+				<input type="submit" value="Найти" class="search__button">
+			</form>
+			<div class="header__user"></div>
+		</div>
+	</header>
+	<nav class="nav">
+		<div class="container">
+			<ul class="nav__list">
+				<li class="nav__item nav__item_active">
+					<a href="#" class="nav__link">Мои организации</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link">Заявки на изменение</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link">Мои заказы</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="content">
+		<div class="container">
+			<div class="head">
+				<h1 class="title">Кафе Гладиатор</h1>
+				<a href="#" class="open-map"><i class="icon-map fa fa-map-marker" aria-hidden="true"></i>Страница на Картах</a>
+			</div>
+			<ul class="cafe-nav">
+				<li class="cafe-nav__item">
+					<a href="#" class="cafe-nav__link">Информация</a>
+				</li>
+				<li class="cafe-nav__item">
+					<a href="#" class="cafe-nav__link">Услуги</a>
+				</li>
+				<li class="cafe-nav__item">
+					<a href="#" class="cafe-nav__link">Фото</a>
+				</li>
+				<li class="cafe-nav__item cafe-nav__item_active">
+					<a href="#" class="cafe-nav__link">Отзывы</a>
+				</li>
+				<li class="cafe-nav__item">
+					<a href="#" class="cafe-nav__link">Статистика</a>
+				</li>
+			</ul>
+			<div class="sub-head">
+				<h2 class="sub-head__title"><span class="sub-head__count">12</span> отзывов об организации</h2>
+				<div class="sub-head__mark">9.8</div>
+			</div>
+			<div class="feedbacks">
+				<div class="feedback">
+					<div class="feedback__head">
+						<div class="feedback__user"></div>
+						<p class="feedback__name">Василий Привалов</p>
+						<p class="feedback__date">4 апреля 2016</p>
+						<p class="feedback__mark feedback__mark_like feedback__mark_yellow">оценка: <i class="fa fa-thumbs-up" aria-hidden="true"></i></p>
+					</div>
+					<div class="feedback__text">
+						Очень давно знаю это место буквально со дня открытия и для нашей семьи в особенности ребенка, оно стало самым любимым. Здесь рай не только для взрослых по части вкусной итальянской кухни и романтики <span class="feedback__show-more">читать полностью</span>
+					</div>
+					<div class="feedback__endl">
+						<button class="feedback__button">Ответить</button>
+						<button class="feedback__button">Пожаловаться</button>
+						<a href="#" class="feedback__link">Ссылка на отзыв</a>
+					</div>
+				</div>
+				<div class="feedback">
+					<div class="feedback__head">
+						<div class="feedback__user"></div>
+						<p class="feedback__name">Илья Пряников</p>
+						<p class="feedback__date">9 мая 2016</p>
+						<p class="feedback__mark feedback__mark_like feedback__mark_yellow">оценка: <i class="fa fa-thumbs-up" aria-hidden="true"></i></p>
+					</div>
+					<div class="feedback__text">
+						Удивительное, хорошее место. Кухня на высоте. Интерьер крайне приятный, играет рояль каждый раз и для деток проводят мастер-классы. На радость родителям — бесплатно!<span class="feedback__show-more"></span>
+					</div>
+					<div class="feedback__endl">
+						<button class="feedback__button">Ответить</button>
+						<button class="feedback__button">Пожаловаться</button>
+						<a href="#" class="feedback__link">Ссылка на отзыв</a>
+					</div>
+				</div>
+				<div class="feedback">
+					<div class="feedback__head">
+						<div class="feedback__user"></div>
+						<p class="feedback__name">Лидия Никарагуа</p>
+						<p class="feedback__date">23 октября 2016</p>
+						<p class="feedback__mark feedback__mark_dislike">оценка: <i class="fa fa-thumbs-o-down" aria-hidden="true"></i></p>
+					</div>
+					<div class="feedback__text">
+						Не понравилось. На Белорусской и Пролетарской как то поуютнее, обстановка поприятнее. Маленький выбор пива, а цена на него большая. Лёффе 0.33 290р!!! Не очень понравилась еда. Брали фирменные бургеры. Мясо было пересоленное и переперченное. Плюс какое то слишком жирное. В итоге, просуммировав все. считаю, что при нынешнем уровне качества заведения цены на еду и напитки должны быть ниже.<span class="feedback__show-more"></span>
+					</div>
+					<div class="feedback__endl">
+						<button class="feedback__button">Ответить</button>
+						<button class="feedback__button">Пожаловаться</button>
+						<a href="#" class="feedback__link">Ссылка на отзыв</a>
+					</div>
+				</div>
+			</div>
+			<form action="#" method="post" class="write">
+				<legend class="write__legend">Напишите ответ на отзыв</legend>
+				<textarea class="write__textarea"></textarea>
+				<input type="submit" value="Опубликовать" class="write__submit">
+			</form>
+			<button class="all">Все 134 отзывов</button>
+		</div>
+	</div>
+	<footer class="footer"></footer>
+</body>
+</html>
